@@ -1,0 +1,6 @@
+C:\MyGit-NotVersion\Mediador\obj\Debug\netcoreapp3.1\Mediador.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyGit-NotVersion\Mediador\obj\Debug\netcoreapp3.1\Mediador.AssemblyInfoInputs.cache
+C:\MyGit-NotVersion\Mediador\obj\Debug\netcoreapp3.1\Mediador.AssemblyInfo.cs
+C:\MyGit-NotVersion\Mediador\obj\Debug\netcoreapp3.1\Mediador.csproj.CoreCompileInputs.cache
+C:\MyGit-NotVersion\Mediador\obj\Debug\netcoreapp3.1\Mediador.MvcApplicationPartsAssemblyInfo.cache
+C:\MyGit-NotVersion\Mediador\obj\Debug\netcoreapp3.1\Mediador.csprojAssemblyReference.cache

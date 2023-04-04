@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WZWewGPyq9jf82HwAi85+5HXZGY6BOgWEWAOwIDm3EbuzF+TnBCimRjvKz4r4ejE75w6Al/mQbFqQFvsLj2rhA==",
+  "success": true,
+  "projectFilePath": "C:\\MyGit-NotVersion\\Mediador\\Mediador.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\farley.rufino\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\farley.rufino\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\farley.rufino\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
