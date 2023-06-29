@@ -1,0 +1,12 @@
+﻿
+# Instalando Mediator
+dotnet add package MediatR
+dotnet add package MediatR.Extensions.Microsoft.DependencyInjection
+# Rota
+v1/customers
+
+# Json 
+{
+	"name":"Farley Bonitao",
+	"email":"Lindao.com.br"
+}

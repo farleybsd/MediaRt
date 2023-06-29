@@ -1,0 +1,16 @@
+﻿version: '3.8'
+services:
+  api:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    image: farleybsd/api:v1
+    container_name: api
+    ports:
+     - 5000:80
+    networks:
+      - redeApi
+
+networks:
+  redeApi:
+    driver: bridge
