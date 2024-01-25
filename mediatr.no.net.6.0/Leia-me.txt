@@ -1,1 +1,25 @@
-﻿
+﻿https://medium.com/@codebob75/mediatr-dependency-injection-net-6-71c42ae7c0de
+https://stackoverflow.com/questions/71599246/how-to-configure-and-use-serilog-in-asp-net-core-6
+
+Pré-requisitos
+
+Visual Studio 2022 (.NET 6.0)
+Nuget package MediatR, MediatR.Extensions.Microsoft.DependencyInjection,Serilog.AspNetCore e Serilog
+
+1. O primeiro passo é configurar a classe program.cs:
+
+// Add MediatR with the assembly containing your request handlers
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+
+//UseSerilog
+builder.Host.UseSerilog((hostContext, services, configuration) => {
+    configuration.WriteTo.Console();
+});
+
+
+
+2. Com o MediatR é possível realizar três tipos de operações:
+
+* Queries: São responsáveis pelas consultas na base de dados e retornam objetos do tipo DTOs ou ViewModels.
+* Commands: São responsáveis pelas ações que realizam alguma alteração na base de dados e pode ou não retornar algum dado.
+* Notifications: Eventos disparados de forma assíncrona para realizar algum tipo de ação, geralmente para notificar quando um command foi executado com ou sem sucesso.
